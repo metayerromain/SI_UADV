@@ -1,0 +1,93 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* line 6, global/_reset.scss */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+/* line 16, global/_reset.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 19, global/_reset.scss */
+body {
+  line-height: 1;
+}
+
+/* line 22, global/_reset.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 25, global/_reset.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 29, global/_reset.scss */
+blockquote:before, blockquote:after {
+  content: '';
+  content: none;
+}
+
+/* line 34, global/_reset.scss */
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 38, global/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 1, components/_header.scss */
+.imgContainer {
+  position: relative;
+  height: 100vh;
+}
+
+/* line 6, components/_header.scss */
+img {
+  position: absolute;
+  width: 100%;
+  bottom: -20%;
+  background-clip: border-box;
+}
+
+/* line 13, components/_header.scss */
+.img3 {
+  z-index: 1;
+}
+
+/* line 17, components/_header.scss */
+.img2 {
+  z-index: 2;
+}
+
+/* line 21, components/_header.scss */
+.img1 {
+  z-index: 3;
+}
+
+/* line 25, components/_header.scss */
+h1 {
+  position: absolute;
+  z-index: 2;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 40px;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
